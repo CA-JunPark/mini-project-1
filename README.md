@@ -39,7 +39,7 @@ The dataset contains only numerical features and does not include missing values
     source .venv/Scripts/activate or .venv/bin/activate
     pip install -r requirements.txt
 
-run .ipynb files with created python environment.
+run .ipynb files with a created python environment.
 
 ### Result summary with Key Metrics
 
