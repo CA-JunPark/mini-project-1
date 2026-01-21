@@ -41,9 +41,16 @@ The dataset contains only numerical features and does not include missing values
 
 run .ipynb files with created python environment.
 
-### Result summary with Key Meterics
+### Result summary with Key Metrics
 
-![Alt text](/src/Result_Metric.png)
+| Model | RMSE | MAE | R2 |
+| :--- | :--- | :--- | :--- |
+| Polynomial Linear Regression | 0.179104 | 0.132785 | 0.696720 |
+| Polynomial Ridge Regression (alpha = 1) | 0.181156 | 0.133924 | 0.689728 |
+| Polynomial Ridge Regression (alpha = 0.1) | 0.181216 | 0.132962 | 0.689525 |
+| Polynomial Ridge Regression (alpha = 10) | 0.181797 | 0.136631 | 0.687531 |
+| Linear Regression | 0.202103 | 0.155254 | 0.613826 |
+| Ridge Regression (alpha = 10) | 0.202106 | 0.155259 | 0.613818 |
 
 ### Team Member Contributions
 Aristide Kanamugire: 01_data_exploration.ipynb
